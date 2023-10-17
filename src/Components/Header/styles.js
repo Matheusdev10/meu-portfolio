@@ -5,7 +5,6 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
-
   height: 110px;
 
   background: ${({ theme }) => theme.COLORS.BACKGROUND_700};
@@ -32,6 +31,29 @@ export const Container = styled.div`
       font-size: 1.5rem;
       gap: 50px;
       list-style: none;
+    }
+
+    ul li {
+      position: relative;
+    }
+
+    ul li::after {
+      content: ' ';
+      width: 0%;
+      height: 3px;
+      background: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      transition: 0.5s ease-in-out;
+    }
+
+    ul li:hover {
+      transform: scale(1.24, 1.24);
+    }
+
+    ul li:hover::after {
+      width: 100%;
     }
   }
 `;
