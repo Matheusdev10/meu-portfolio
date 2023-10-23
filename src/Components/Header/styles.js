@@ -35,13 +35,14 @@ export const Container = styled.div`
 
     ul li {
       position: relative;
+      color: ${({ theme }) => theme.COLORS.GRAY_100};
     }
 
     ul li::after {
       content: ' ';
       width: 0%;
       height: 3px;
-      background: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+      background: ${({ theme }) => theme.COLORS.GRAY_200};
       position: absolute;
       bottom: -5px;
       left: 0;

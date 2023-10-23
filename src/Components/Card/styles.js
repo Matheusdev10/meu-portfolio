@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 400px;
-  height: 400px;
-  background-color: blue;
+  width: 200px;
+  height: 200px;
+
   border-radius: 20px;
 
   > img {
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
   }
 `;
