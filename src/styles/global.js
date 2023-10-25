@@ -10,7 +10,8 @@ export default createGlobalStyle`
 }
 
 body{
-    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+    background-image:linear-gradient(to bottom, #000a0f, #001119, #0D1D25);
+    height: 100vh;
     -webkit-font-smoothing: antialiased;
 }
 

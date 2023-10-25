@@ -17,13 +17,13 @@ export const Box = styled.div`
     overflow: hidden;
   }
 
-  > span {
-    color: ${({ theme }) => theme.COLORS.GRAY_400};
-    font-family: sans-serif;
-  }
-
   .typing-animation {
     animation: blinkCursor 500ms infinite, normal, typing 4s steps(40) 1s normal;
+
+    > span {
+      color: ${({ theme }) => theme.COLORS.GRAY_400};
+      font-family: sans-serif;
+    }
   }
 
   @keyframes blinkCursor {
