@@ -1,8 +1,7 @@
 import { api } from '../../services/api';
 import { Container } from './styles';
 import { useEffect, useState } from 'react';
-import github from '../../assets/github.png';
-import linkedin from '../../assets/linkedin.png';
+
 export function Card() {
   const [user, setUser] = useState(null);
 
@@ -28,13 +27,6 @@ export function Card() {
         sejam bonitas e, ao mesmo tempo, simples na hora de dar manutenção.
         Ademais, estou sempre buscando novos desafios.
       </section>
-
-      <div>
-        <img src={github} alt="icone github" />
-      </div>
-      <div>
-        <img src={linkedin} alt="icone linkedin" />
-      </div>
     </Container>
   );
 }

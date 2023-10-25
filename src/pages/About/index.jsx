@@ -7,7 +7,7 @@ export function About() {
     <div>
       <Header />
       <Box>
-        <p>
+        <p className="typing-animation">
           Desenvolvedor <span>Front-end</span>
         </p>
       </Box>

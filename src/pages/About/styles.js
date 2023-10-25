@@ -12,10 +12,35 @@ export const Box = styled.div`
   > p {
     font-size: 50px;
     font-family: cursive;
+    border-right: 2px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+  }
 
-    > span {
-      color: ${({ theme }) => theme.COLORS.GRAY_400};
-      font-family: sans-serif;
+  > span {
+    color: ${({ theme }) => theme.COLORS.GRAY_400};
+    font-family: sans-serif;
+  }
+
+  .typing-animation {
+    animation: blinkCursor 500ms infinite, normal, typing 4s steps(40) 1s normal;
+  }
+
+  @keyframes blinkCursor {
+    from {
+      border-right-color: white;
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 12em;
     }
   }
 `;
