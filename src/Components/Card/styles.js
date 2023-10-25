@@ -16,12 +16,11 @@ export const Container = styled.div`
   }
 
   > section {
-    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
     width: 800px;
     height: 250px;
-    padding: 70px;
-    line-height: 25px;
-    font-size: 20px;
+
+    line-height: 50px;
+    font-size: 30px;
     border-radius: 20px;
     font-family: sans-serif;
   }

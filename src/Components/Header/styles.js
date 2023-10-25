@@ -6,8 +6,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-around;
   height: 110px;
-
-  background: ${({ theme }) => theme.COLORS.BACKGROUND_700};
+  background-image: linear-gradient(to left, #000a0f, #001119, #0d1d25);
 
   > div {
     display: flex;
