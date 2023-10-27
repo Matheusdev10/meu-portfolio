@@ -21,7 +21,7 @@ export const Box = styled.div`
     animation: blinkCursor 500ms infinite, normal, typing 4s steps(40) 1s normal;
 
     > span {
-      color: ${({ theme }) => theme.COLORS.GRAY_400};
+      color: ${({ theme }) => theme.COLORS.GREEN_100};
       font-family: sans-serif;
     }
   }

@@ -21,6 +21,7 @@ export const Container = styled.div`
     }
     > p {
       font-size: 1.5rem;
+      color: ${({ theme }) => theme.COLORS.GREEN_100};
     }
   }
   > section {
@@ -41,7 +42,7 @@ export const Container = styled.div`
       content: ' ';
       width: 0%;
       height: 3px;
-      background: ${({ theme }) => theme.COLORS.GRAY_200};
+      background: ${({ theme }) => theme.COLORS.GREEN_100};
       position: absolute;
       bottom: -5px;
       left: 0;

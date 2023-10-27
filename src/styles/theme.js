@@ -20,6 +20,8 @@ export default {
 
     PINK_50: '#AB4D55',
 
+    GREEN_100: '#4f8d40',
+
     BLUE_50: '#82F3FF',
 
     WHITE: '#FFFFFF',

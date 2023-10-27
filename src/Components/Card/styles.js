@@ -17,11 +17,12 @@ export const Container = styled.div`
 
   > section {
     width: 800px;
-    height: 250px;
-
+    height: 280px;
     line-height: 50px;
-    font-size: 30px;
+    font-size: 25px;
+    padding: 20px;
     border-radius: 20px;
     font-family: sans-serif;
+    border: 1px solid #4f8d40;
   }
 `;
