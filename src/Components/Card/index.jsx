@@ -31,8 +31,9 @@ export function Card() {
           sejam bonitas, e ao mesmo tempo fáceis na hora de dar manutenção;
         </p>
         <p>
-          💡 Estou sempre tentando aprimorar minhas habilidades em HTML, CSS,
-          JS, REACT, NODE e, buscando aprender sempre coisas novas;
+          💡 Estou sempre tentando aprimorar minhas habilidades em
+          <span> HTML, CSS, JS, REACT, NODE </span> no entanto, estou sempre
+          aberto e disposto a aprender novas techs.
         </p>
         <p>🚀 Estou sempre buscando novos desafios.</p>
       </section>

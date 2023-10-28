@@ -12,7 +12,6 @@ export const Container = styled.div`
     border-radius: 20px;
     width: 300px;
     height: 300px;
-    background: blue;
     border-radius: 20px;
   }
 
@@ -24,5 +23,11 @@ export const Container = styled.div`
     border-radius: 20px;
     font-family: sans-serif;
     border: 1px solid #4f8d40;
+
+    > p {
+      > span {
+        color: ${({ theme }) => theme.COLORS.GREEN_100};
+      }
+    }
   }
 `;
