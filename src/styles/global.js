@@ -10,7 +10,7 @@ export default createGlobalStyle`
 }
 
 body{
-    background-image:linear-gradient(to bottom, #000a0f, #001119, #0D1D25);
+    background-image:linear-gradient(to right, #000a0f, #001119, #0D1D25);
     height: 100vh;
     -webkit-font-smoothing: antialiased;
 }

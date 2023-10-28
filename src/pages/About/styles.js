@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 
+export const Container = styled.div`
+  overflow-x: hidden;
+`;
+
 export const Box = styled.div`
-  width: 100vw;
-  height: 110px;
   display: flex;
   align-items: center;
   flex-direction: column;

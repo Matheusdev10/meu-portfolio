@@ -4,7 +4,8 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 100vw;
+  /* width: 100vw;
+  height: 100vh; */
 
   > img {
     height: 100%;
@@ -17,9 +18,8 @@ export const Container = styled.div`
 
   > section {
     width: 800px;
-    height: 280px;
+    height: auto;
     line-height: 50px;
-    font-size: 25px;
     padding: 20px;
     border-radius: 20px;
     font-family: sans-serif;

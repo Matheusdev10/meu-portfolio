@@ -22,10 +22,19 @@ export function Card() {
     <Container>
       <img src={user?.avatar_url} alt="imagem de perfil Matheus" />
       <section>
-        Olá Pessoal! Meu nome é Matheus Campos e sou Desenvolvedor front-end.
-        Meu principal objetivo como desenvolvedor é contruir interfaces que
-        sejam bonitas e, ao mesmo tempo, simples na hora de dar manutenção.
-        Ademais, estou sempre buscando novos desafios.
+        <p>
+          👋 Olá! Meu nome é Matheus Campos e sou Desenvolvedor front-end
+          apaixonado por tecnologia;
+        </p>
+        <p>
+          👨‍💻 Meu principal objetivo como desenvolvedor é criar interfaces que
+          sejam bonitas, e ao mesmo tempo fáceis na hora de dar manutenção;
+        </p>
+        <p>
+          💡 Estou sempre tentando aprimorar minhas habilidades em HTML, CSS,
+          JS, REACT, NODE e, buscando aprender sempre coisas novas;
+        </p>
+        <p>🚀 Estou sempre buscando novos desafios.</p>
       </section>
     </Container>
   );

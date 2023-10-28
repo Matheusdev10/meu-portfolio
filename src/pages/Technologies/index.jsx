@@ -1,8 +1,10 @@
 import imgGit from '../../assets/github.png';
-export function Technologies() {
+import { Container } from './styles';
+export function Technologies({ id }) {
   return (
-    <div>
+    <Container id={id}>
+      <h1>Tecnologias</h1>
       <img src={imgGit} alt="" />
-    </div>
+    </Container>
   );
 }

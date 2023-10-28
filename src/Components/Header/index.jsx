@@ -1,11 +1,11 @@
 import { Container } from './styles';
 import { useState, useEffect } from 'react';
 import { api } from '../../services/api';
-import { useNavigate, Link } from 'react-router-dom';
+// import { useNavigate, Link } from 'react-router-dom';
 
 export function Header() {
   const [user, setUser] = useState(null);
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   async function getUser() {
     try {
@@ -28,13 +28,18 @@ export function Header() {
 
         <section>
           <ul>
-            <li>Sobre mim</li>
-
-            <Link to="/technologies">
+            <a href="about">
+              <li>Sobre mim</li>
+            </a>
+            <a href="#technologies">
               <li>Tecnologias</li>
-            </Link>
-            <li>Projetos</li>
-            <li>Contato</li>
+            </a>
+            <a href="#projects">
+              <li>Projetos</li>
+            </a>
+            <a href="#contacts">
+              <li>Contato</li>
+            </a>
           </ul>
         </section>
       </Container>
