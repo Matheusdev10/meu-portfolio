@@ -2,6 +2,7 @@ import { Header } from '../../Components/Header';
 import { Container, Box } from './styles';
 import { Card } from '../../Components/Card';
 import { Technologies } from '../Technologies';
+
 // import { Technologies } from '../Technologies';
 // import { Link } from 'react-router-dom';
 
@@ -15,6 +16,7 @@ export function About() {
             Desenvolvedor <span>Front-end</span>
           </p>
         </Box>
+
         <Card />
         <Technologies id="technologies" />
       </Container>

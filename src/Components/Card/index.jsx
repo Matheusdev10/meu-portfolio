@@ -1,7 +1,8 @@
 import { api } from '../../services/api';
 import { Container } from './styles';
 import { useEffect, useState } from 'react';
-
+import { Button } from '../Button/';
+import { BsWhatsapp } from 'react-icons/bs';
 export function Card() {
   const [user, setUser] = useState(null);
 
@@ -31,11 +32,12 @@ export function Card() {
           sejam bonitas, e ao mesmo tempo fáceis na hora de dar manutenção;
         </p>
         <p>
-          💡 Estou sempre tentando aprimorar minhas habilidades em
+          💡 Estou sempre aprimorando minhas habilidades em
           <span> HTML, CSS, JS, REACT, NODE </span> no entanto, estou sempre
           aberto e disposto a aprender novas techs.
         </p>
         <p>🚀 Estou sempre buscando novos desafios.</p>
+        <Button title={'Vamos conversar?'} Icon={<BsWhatsapp />} />
       </section>
     </Container>
   );
