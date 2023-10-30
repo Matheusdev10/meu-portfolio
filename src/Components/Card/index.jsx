@@ -37,7 +37,14 @@ export function Card() {
           aberto e disposto a aprender novas techs.
         </p>
         <p>🚀 Estou sempre buscando novos desafios.</p>
-        <Button title={'Vamos conversar?'} Icon={<BsWhatsapp />} />
+        <div>
+          <a
+            href="https://wa.me/5534999686700?text=Olá dev tudo bem? Adorei seu site, que tal batermos um papo? "
+            target="_blank"
+          >
+            <Button title={'Vamos conversar?'} Icon={<BsWhatsapp />} />
+          </a>
+        </div>
       </section>
     </Container>
   );
