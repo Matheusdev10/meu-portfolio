@@ -13,6 +13,10 @@ export const Container = styled.div`
     font-size: 50px;
     color: ${({ theme }) => theme.COLORS.GREEN_100};
   }
+  > p {
+    margin-top: 10px;
+    font-size: 20px;
+  }
 
   > section {
     display: flex;
@@ -23,10 +27,6 @@ export const Container = styled.div`
       }
     }
   }
-
-  /* .icons {
-    overflow: hidden;
-  } */
 
   @keyframes slide {
     from {
@@ -42,12 +42,12 @@ export const Container = styled.div`
   }
 
   .icons-slide {
-    width: 100vw;
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
-    padding: 30px;
-    animation: 5s slide infinite linear;
-    white-space: nowrap;
+    background-image: linear-gradient(to bottom, #000a0f, #001119, #0d1d25);
+    padding-top: 20px;
+    gap: 15px;
+    animation: 10s slide infinite linear;
   }
 `;
