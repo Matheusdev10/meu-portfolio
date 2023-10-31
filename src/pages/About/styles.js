@@ -10,7 +10,6 @@ export const Box = styled.div`
   flex-direction: column;
   justify-content: center;
   height: 200px;
-
   > p {
     font-size: 50px;
     font-family: cursive;
