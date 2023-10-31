@@ -37,6 +37,10 @@ export const Container = styled.div`
     }
   }
 
+  .icons:hover .icons-slide {
+    animation-play-state: paused;
+  }
+
   .icons-slide {
     width: 100vw;
     display: flex;
