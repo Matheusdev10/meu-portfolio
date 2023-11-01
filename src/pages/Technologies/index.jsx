@@ -76,7 +76,7 @@ export function Technologies({ id }) {
         </div>
       </section>
 
-      <h2>Techs que tenho interesse</h2>
+      {/* <h2>Techs que tenho interesse</h2>
       <section className="icons">
         <div className="icons-slide">
           <img src={docker} alt="img icone docker" />
@@ -108,7 +108,7 @@ export function Technologies({ id }) {
           <img src={tailwind} alt="img icone tailwind" />
           <img src={graphql} alt="img icone graphql" />
         </div>
-      </section>
+      </section> */}
     </Container>
   );
 }

@@ -24,6 +24,7 @@ export const Container = styled.div`
       color: ${({ theme }) => theme.COLORS.GREEN_100};
     }
   }
+
   > section {
     > ul {
       cursor: pointer;

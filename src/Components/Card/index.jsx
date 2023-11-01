@@ -32,14 +32,14 @@ export function Card() {
           sejam bonitas, e ao mesmo tempo fáceis na hora de dar manutenção;
         </p>
         <p>
-          💡 Estou sempre aprimorando minhas habilidades em
+          💡 Aprimorando minhas habilidades em
           <span> HTML, CSS, JS, REACT, NODE </span> no entanto, estou sempre
           aberto e disposto a aprender novas techs.
         </p>
         <p>🚀 Estou sempre buscando novos desafios.</p>
         <div>
           <a
-            href="https://wa.me/5534999686700?text=Olá dev tudo bem? Adorei seu site, que tal batermos um papo? "
+            href="https://wa.me/5534999686700?text=Fala dev tudo bem? Adorei seu site, que tal batermos um papo? "
             target="_blank"
           >
             <Button title={'Vamos conversar?'} Icon={<BsWhatsapp />} />

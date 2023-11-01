@@ -37,6 +37,10 @@ export const Container = styled.div`
     }
   }
 
+  .icons {
+    margin-top: 70px;
+  }
+
   .icons:hover .icons-slide {
     animation-play-state: paused;
   }
@@ -44,10 +48,9 @@ export const Container = styled.div`
   .icons-slide {
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
     background-image: linear-gradient(to bottom, #000a0f, #001119, #0d1d25);
-    padding-top: 20px;
     gap: 15px;
+    padding-top: 20px;
     animation: 10s slide infinite linear;
   }
 `;
