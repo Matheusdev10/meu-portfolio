@@ -1,10 +1,10 @@
 import { Container } from './styles';
 import food from '../../assets/images/food.jpeg';
 import { TagItem } from '../TagItem';
-export function CardProjects({ name, description, tags }) {
+import { listProjects } from '../../utils/listProjects';
+export function CardProjects({ name, description, tags, img }) {
   return (
     <Container>
-      <div>Projetos</div>
       <section>
         <div>
           <h3>{name}</h3>
@@ -14,12 +14,20 @@ export function CardProjects({ name, description, tags }) {
           <p>{description}</p>
         </div>
 
+        {/* <div>
+          <ul>
+            <TagItem title={'JavaScript'} />
+            <TagItem title={'react'} />
+            <TagItem title={'html'} />
+          </ul>
+        </div> */}
+
         <div>
           <ul>
-            <TagItem title={tags}></TagItem>
+            <TagItem title={tags} />
           </ul>
         </div>
-        <img src={food} alt="imagem projeto foodexplorer" />
+        <img src={img} alt="imagem dos cards" />
       </section>
     </Container>
   );

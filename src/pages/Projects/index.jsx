@@ -6,15 +6,22 @@ import { TagItem } from '../../Components/TagItem';
 export function Projects({ id }) {
   return (
     <Container id={id}>
-      {listProjects.map((project) => (
-        <>
-          <CardProjects
-            name={project.name}
-            description={project.description}
-            tags={project.tags}
-          />
-        </>
-      ))}
+      <h1>Projetos</h1>
+
+      <div className="cards">
+        {listProjects.map((project) => (
+          <>
+            <CardProjects
+              img={project.img}
+              name={project.name}
+              description={project.description}
+              tags={project.tags.map((tag) => (
+                <TagItem title={tag.split(' , ')} />
+              ))}
+            />
+          </>
+        ))}
+      </div>
     </Container>
   );
 }
