@@ -5,30 +5,39 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   margin-top: 20px;
-
   justify-content: center;
 
-  img {
-    width: 30px;
-  }
-
   > section {
-    /* background-color: blue;
-    border: 2px solid green;
-    width: 400px;
-    height: 400px;
-    padding: 20px;
-    display: flex;
-    
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 200px; */
+    .imgCard {
+      background-color: white;
+
+      > img {
+        width: 400px;
+        height: 300px;
+      }
+    }
+    > .content {
+      margin-top: 30px;
+      display: flex;
+      padding: 50px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+    }
+    max-width: 400px;
+    height: 100%;
+
     border: 1px solid green;
-    width: 360px;
-    height: 380px;
+    border-radius: 5px;
+
     > h3 {
       font-size: 50px;
+    }
+
+    > div {
+      p {
+      }
     }
   }
 `;

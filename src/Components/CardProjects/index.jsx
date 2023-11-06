@@ -6,28 +6,24 @@ export function CardProjects({ name, description, tags, img }) {
   return (
     <Container>
       <section>
-        <div>
-          <h3>{name}</h3>
+        <div className="imgCard">
+          <img src={img} alt="imagem dos cards" />
         </div>
+        <div className="content">
+          <div>
+            <h3>{name}</h3>
+          </div>
 
-        <div>
-          <p>{description}</p>
+          <div>
+            <p>{description}</p>
+          </div>
+
+          <div>
+            <ul>
+              <TagItem title={tags} />
+            </ul>
+          </div>
         </div>
-
-        {/* <div>
-          <ul>
-            <TagItem title={'JavaScript'} />
-            <TagItem title={'react'} />
-            <TagItem title={'html'} />
-          </ul>
-        </div> */}
-
-        <div>
-          <ul>
-            <TagItem title={tags} />
-          </ul>
-        </div>
-        <img src={img} alt="imagem dos cards" />
       </section>
     </Container>
   );
