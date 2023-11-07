@@ -28,3 +28,5 @@ export function CardProjects({ name, description, tags, img }) {
     </Container>
   );
 }
+
+// https://matheusdev10.github.io/github-favorites-explorer/ deploy gitfav

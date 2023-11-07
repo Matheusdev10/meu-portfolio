@@ -1,5 +1,5 @@
 import img from '../assets/images/food.jpeg';
-import linkedin from '../assets/linkedin.png';
+import gitfav from '../assets/images/gitfav.jpeg';
 import code from '../assets/code.svg';
 export const listProjects = [
   {
@@ -12,13 +12,22 @@ export const listProjects = [
   },
   {
     id: 2,
-    name: 'teste',
-    description: 'teste',
+    name: 'RocketNotes',
+    description:
+      'RocketNotes é uma aplicação desenvolvida com o objetivo de controlar anotações',
     tags: ['node, react'],
-    img: linkedin,
+    img: code,
   },
   {
     id: 3,
+    name: 'GitFav',
+    description:
+      'GitFav é uma aplicação javascript com o objetivo de bater na api do github e buscar usuários válidos',
+    tags: ['node, react'],
+    img: gitfav,
+  },
+  {
+    id: 4,
     name: 'RocketNotes',
     description:
       'RocketNotes é uma aplicação desenvolvida com o objetivo de controlar anotações',
