@@ -36,10 +36,10 @@ export function Card() {
           <span> HTML, CSS, JS, REACT, NODE </span> no entanto, estou sempre
           aberto e disposto a aprender novas techs.
         </p>
-        <p>🚀 Estou sempre buscando novos desafios.</p>
+        <p>🚀 Buscando minha melhor versão todos os dias.</p>
         <div>
           <a
-            href="https://wa.me/5534999686700?text=Fala dev tudo bem? Adorei seu site, que tal batermos um papo? "
+            href="https://wa.me/5534988869144?text=Fala dev tudo bem? Adorei seu site, que tal batermos um papo? "
             target="_blank"
           >
             <Button title={'Vamos conversar?'} Icon={<BsWhatsapp />} />
