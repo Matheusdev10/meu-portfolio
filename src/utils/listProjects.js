@@ -1,5 +1,5 @@
 import img from '../assets/images/food.jpeg';
-import gitfav from '../assets/images/gitfav.jpeg';
+import gitfav from '../assets/images/gitfav.png';
 import notes from '../assets/images/notes.png';
 import focus from '../assets/images/focus.png';
 export const listProjects = [
@@ -24,9 +24,17 @@ export const listProjects = [
     id: 3,
     name: 'GitFav',
     description:
-      'GitFav é uma aplicação javascript com o objetivo de bater na api do github e buscar usuários válidos',
+      'GitFav é uma aplicação javascript que tem como objetivo consumir a api do github e buscar usuários válidos',
     tags: ['JavaScript'],
     img: gitfav,
+  },
+  {
+    id: 4,
+    name: 'Cronômetro',
+    description:
+      'Aplicação com o intuito de construir um cronômetro em javaScript com o objetivo de trabalhar com manipulação da dom',
+    tags: ['JavaScript'],
+    img: focus,
   },
   {
     id: 4,
