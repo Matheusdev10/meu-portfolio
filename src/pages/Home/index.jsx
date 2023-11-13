@@ -3,8 +3,9 @@ import { Container, Box } from './styles';
 import { Card } from '../../Components/Card';
 import { Technologies } from '../Technologies';
 import { Projects } from '../Projects';
+import { Contact } from '../Contact';
 
-export function About() {
+export function Home() {
   return (
     <>
       <Container>
@@ -18,6 +19,7 @@ export function About() {
         <Card />
         <Technologies id="technologies" />
         <Projects id="projects" />
+        <Contact id="contacts" />
       </Container>
     </>
   );

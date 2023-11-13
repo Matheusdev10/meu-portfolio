@@ -2,6 +2,7 @@ import img from '../assets/images/food.jpeg';
 import gitfav from '../assets/images/gitfav.png';
 import notes from '../assets/images/notes.png';
 import focus from '../assets/images/focus.png';
+import imc from '../assets/images/imc.png';
 export const listProjects = [
   {
     id: 1,
@@ -38,10 +39,10 @@ export const listProjects = [
   },
   {
     id: 4,
-    name: 'Cronômetro',
+    name: 'Calculo de IMC',
     description:
-      'Aplicação com o intuito de construir um cronômetro em javaScript com o objetivo de trabalhar com manipulação da dom',
+      'Calculo de Imc é um projeto desenvolvido em javascript onde o indivíduo informa a altura e o peso, e o programa consegue calcular o IMC ',
     tags: ['JavaScript'],
-    img: focus,
+    img: imc,
   },
 ];

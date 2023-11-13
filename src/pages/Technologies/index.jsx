@@ -29,6 +29,7 @@ export function Technologies({ id }) {
           <img src={sql} alt="img icone html" />
           <img src={git} alt="img icone git" />
           <img src={styledComponents} alt="img icone styledComponent" />
+          <img src={tailwind} alt="img icone tailwind" />
         </div>
         <div className="icons-slide">
           <img src={html} alt="img icone html" />
@@ -40,6 +41,7 @@ export function Technologies({ id }) {
           <img src={sql} alt="img icone html" />
           <img src={git} alt="img icone git" />
           <img src={styledComponents} alt="img icone styledComponent" />
+          <img src={tailwind} alt="img icone tailwind" />
         </div>
         <div className="icons-slide">
           <img src={html} alt="img icone html" />
@@ -51,6 +53,7 @@ export function Technologies({ id }) {
           <img src={sql} alt="img icone html" />
           <img src={git} alt="img icone git" />
           <img src={styledComponents} alt="img icone styledComponent" />
+          <img src={tailwind} alt="img icone tailwind" />
         </div>
         <div className="icons-slide">
           <img src={html} alt="img icone html" />
@@ -62,6 +65,7 @@ export function Technologies({ id }) {
           <img src={sql} alt="img icone html" />
           <img src={git} alt="img icone git" />
           <img src={styledComponents} alt="img icone styledComponent" />
+          <img src={tailwind} alt="img icone tailwind" />
         </div>
         <div className="icons-slide">
           <img src={html} alt="img icone html" />
@@ -73,6 +77,7 @@ export function Technologies({ id }) {
           <img src={sql} alt="img icone html" />
           <img src={git} alt="img icone git" />
           <img src={styledComponents} alt="img icone styledComponent" />
+          <img src={tailwind} alt="img icone tailwind" />
         </div>
       </section>
 

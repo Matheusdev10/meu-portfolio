@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { ThemeProvider } from 'styled-components';
 import GlobalStyles from './styles/global';
-import { About } from './pages/About';
+import { Home } from './pages/Home';
 // import { Routes } from './routes';
 import theme from './styles/theme';
 import { register } from 'swiper/element/bundle';
@@ -16,7 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <About />
+      <Home />
       {/* <Routes /> */}
     </ThemeProvider>
   </React.StrictMode>

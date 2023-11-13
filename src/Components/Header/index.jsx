@@ -28,7 +28,7 @@ export function Header() {
 
         <section>
           <ul>
-            <a href="about">
+            <a href="home">
               <li>Sobre mim</li>
             </a>
             <a href="#technologies">

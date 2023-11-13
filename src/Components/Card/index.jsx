@@ -38,12 +38,12 @@ export function Card() {
         </p>
         <p>🚀 Buscando minha melhor versão todos os dias.</p>
         <div>
-          <a
+          {/* <a
             href="https://wa.me/5534988869144?text=Fala dev tudo bem? Adorei seu site, que tal batermos um papo? "
             target="_blank"
           >
             <Button title={'Vamos conversar?'} Icon={<BsWhatsapp />} />
-          </a>
+          </a> */}
         </div>
       </section>
     </Container>

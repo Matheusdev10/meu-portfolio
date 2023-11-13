@@ -12,6 +12,7 @@ export const Container = styled.div`
     .imgCard {
       height: 300px;
       display: flex;
+
       align-items: center;
       justify-content: center;
       background-image: linear-gradient(to bottom, #000a0f, #001119, #0d1d25);
