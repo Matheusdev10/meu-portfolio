@@ -9,6 +9,7 @@ export default createGlobalStyle`
     color: ${({ theme }) => theme.COLORS.WHITE}
 }
 
+
 body{
     background-image:linear-gradient(to right, #000a0f, #001119, #0D1D25);
     height: 100vh;

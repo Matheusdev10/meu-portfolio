@@ -6,14 +6,12 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  height: 300px;
-  margin-top: 30px;
-
+  margin: 100px 0% 100px 0%;
   .boxIcons {
     display: flex;
     gap: 20px;
-    width: 50%;
     padding: 10px;
+    width: 85%;
     border-radius: 20px;
 
     align-items: center;
@@ -39,7 +37,7 @@ export const Container = styled.div`
   > h3 {
     color: ${({ theme }) => theme.COLORS.GREEN_100};
     font-size: 50px;
-    margin-bottom: -40px;
+    font-family: cursive;
   }
 
   > p {

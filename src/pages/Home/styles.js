@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   overflow-x: hidden;
   height: 100vh;
+  scroll-behavior: smooth;
 `;
 
 export const Box = styled.div`
@@ -10,7 +11,8 @@ export const Box = styled.div`
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  height: 200px;
+  margin: 100px 0% 100px 0%;
+
   > p {
     font-size: 50px;
     font-family: cursive;

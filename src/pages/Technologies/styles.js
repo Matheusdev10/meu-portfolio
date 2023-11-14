@@ -6,11 +6,11 @@ export const Container = styled.div`
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  height: 300px;
+  margin: 100px 0% 100px 0%;
 
   > h1 {
-    margin-top: 150px;
     font-size: 50px;
+    font-family: cursive;
     color: ${({ theme }) => theme.COLORS.GREEN_100};
   }
   > p {

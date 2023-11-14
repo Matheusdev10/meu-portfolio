@@ -6,6 +6,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-around;
   height: 110px;
+  scroll-behavior: smooth;
   background-image: linear-gradient(to left, #000a0f, #001119, #0d1d25);
 
   > div {
@@ -28,6 +29,7 @@ export const Container = styled.div`
   > section {
     > ul {
       cursor: pointer;
+      scroll-behavior: smooth;
       display: flex;
       font-size: 1.5rem;
       gap: 50px;

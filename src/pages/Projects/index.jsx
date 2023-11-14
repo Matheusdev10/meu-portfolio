@@ -27,6 +27,11 @@ export function Projects({ id }) {
     <Container id={id}>
       <h1>Projetos</h1>
 
+      <p>
+        Principais projetos que desenvolvi durante minha carreira como
+        desenvolvedor
+      </p>
+
       <div className="cards">
         <Swiper
           slidesPerView={slidePerview}
