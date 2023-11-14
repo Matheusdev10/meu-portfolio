@@ -11,6 +11,7 @@ export const Container = styled.div`
     display: flex;
     gap: 20px;
     padding: 10px;
+    margin-top: 70px;
     width: 85%;
     border-radius: 20px;
 
@@ -41,7 +42,8 @@ export const Container = styled.div`
   }
 
   > p {
-    font-size: 25px;
+    margin-top: 10px;
+    font-size: 20px;
   }
 
   > div {

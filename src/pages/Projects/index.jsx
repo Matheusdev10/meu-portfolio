@@ -48,6 +48,7 @@ export function Projects({ id }) {
                   tags={project.tags.map((tag) => (
                     <TagItem key={project.tags} title={tag.split(',')} />
                   ))}
+                  href={project.href}
                   // tags={project.tags.map((tag) => (
                   //   <TagItem title={tag.split(',')} />
                   // ))}

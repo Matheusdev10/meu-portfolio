@@ -6,6 +6,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-around;
   height: 110px;
+
   scroll-behavior: smooth;
   background-image: linear-gradient(to left, #000a0f, #001119, #0d1d25);
 

@@ -2,12 +2,14 @@ import { Container } from './styles';
 import food from '../../assets/images/food.jpeg';
 import { TagItem } from '../TagItem';
 import { listProjects } from '../../utils/listProjects';
-export function CardProjects({ name, description, tags, img }) {
+export function CardProjects({ name, description, tags, img, href }) {
   return (
     <Container>
       <section>
         <div className="imgCard">
-          <img src={img} alt="imagem dos cards" />
+          <a href={href}>
+            <img src={img} alt="imagem dos cards" />
+          </a>
         </div>
         <div className="content">
           <div>

@@ -12,17 +12,21 @@ export const Container = styled.div`
     .imgCard {
       height: 300px;
       display: flex;
+      cursor: pointer;
 
       align-items: center;
       justify-content: center;
       background-image: linear-gradient(to bottom, #000a0f, #001119, #0d1d25);
-
-      > img {
-        width: 100%;
+      > a {
         height: 100%;
-        object-fit: cover;
+        > img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
       }
     }
+
     > .content {
       margin-top: 30px;
       display: flex;
