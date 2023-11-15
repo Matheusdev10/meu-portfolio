@@ -6,12 +6,17 @@ export const Container = styled.div`
   margin-top: 20px;
   justify-content: center;
 
+  > section:hover {
+    transform: scale(1.1);
+    margin-bottom: 30px;
+  }
+
   > section {
     height: 550px;
 
     .imgCard {
-      height: 300px;
       display: flex;
+      height: 300px;
       cursor: pointer;
 
       align-items: center;

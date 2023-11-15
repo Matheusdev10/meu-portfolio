@@ -3,6 +3,7 @@ import gitfav from '../assets/images/gitfav.png';
 import notes from '../assets/images/notes.png';
 import focus from '../assets/images/focus.png';
 import imc from '../assets/images/imc.png';
+import grid from '../assets/images/grid.png';
 export const listProjects = [
   {
     id: 1,
@@ -21,7 +22,7 @@ export const listProjects = [
       'RocketNotes é uma aplicação desenvolvida com o objetivo de controlar anotações. Nessa aplicação é possível cadastrar, filtrar e excluir anotações',
     tags: ['React'],
     img: notes,
-    href: 'https://rocket-notes-exp.netlify.app/',
+    href: 'https://rocket-notes-react.vercel.app/',
   },
   {
     id: 3,
@@ -42,12 +43,21 @@ export const listProjects = [
     href: 'https://focuspomo.netlify.app/',
   },
   {
-    id: 4,
+    id: 5,
     name: 'Calculo de IMC',
     description:
       'Calculo de Imc é um projeto desenvolvido em javascript onde o indivíduo informa a altura e o peso, e o programa consegue calcular o IMC ',
     tags: ['JavaScript'],
     img: imc,
     href: 'https://imc-rocket.netlify.app/',
+  },
+  {
+    id: 6,
+    name: 'Work-grid',
+    description:
+      'Work-grid é um projeto onde o objetivo principal foi trabalhar com os conceitos de grid-css aplicando também algumas animações nos cards  ',
+    tags: ['Css'],
+    img: grid,
+    href: 'https://work-grid.netlify.app/',
   },
 ];
