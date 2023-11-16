@@ -3,12 +3,12 @@ import { Container, Box } from './styles';
 import { Card } from '../../Components/Card';
 import { Technologies } from '../Technologies';
 import { Projects } from '../Projects';
-import { Contact } from '../Contact';
+import { Certificate } from '../Certificate';
 
-export function Home() {
+export function Home({ id }) {
   return (
     <>
-      <Container>
+      <Container id={id}>
         <Header />
         <Box>
           <p className="typing-animation">
@@ -19,7 +19,7 @@ export function Home() {
         <Card />
         <Technologies id="technologies" />
         <Projects id="projects" />
-        <Contact id="contacts" />
+        <Certificate id="certificate" />
       </Container>
     </>
   );

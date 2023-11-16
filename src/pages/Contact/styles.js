@@ -47,9 +47,8 @@ export const Container = styled.div`
   }
 
   > div {
-    > a {
-      > img {
-      }
+    margin-top: 10px;
+    img {
     }
   }
 `;

@@ -8,7 +8,7 @@ export const Container = styled.div`
 
   > section:hover {
     transform: scale(1.1);
-    margin-bottom: 30px;
+    margin: 30px 0 30px 0;
   }
 
   > section {

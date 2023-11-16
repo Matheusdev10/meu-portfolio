@@ -3,6 +3,7 @@ import { Container } from './styles';
 import { useEffect, useState } from 'react';
 import { Button } from '../Button/';
 import { BsWhatsapp } from 'react-icons/bs';
+
 export function Card() {
   const [user, setUser] = useState(null);
 

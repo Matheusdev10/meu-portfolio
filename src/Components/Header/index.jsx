@@ -28,7 +28,7 @@ export function Header() {
 
         <section>
           <ul>
-            <a href="home">
+            <a href="#home">
               <li>Sobre mim</li>
             </a>
             <a href="#technologies">
@@ -37,8 +37,8 @@ export function Header() {
             <a href="#projects">
               <li>Projetos</li>
             </a>
-            <a href="#contacts">
-              <li>Contato</li>
+            <a href="#certificate">
+              <li>Certificados</li>
             </a>
           </ul>
         </section>

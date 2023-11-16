@@ -3,6 +3,8 @@ import { Container } from './styles';
 import { BsGithub } from 'react-icons/bs';
 import { BsLinkedin } from 'react-icons/bs';
 import { BsWhatsapp } from 'react-icons/bs';
+import explorer from '../../assets/images/explorer.png';
+
 export function Contact({ id }) {
   return (
     <Container id={id}>
@@ -28,6 +30,9 @@ export function Contact({ id }) {
             <BsWhatsapp size={30} fill="#90EE90" />
           </a>
         </div>
+      </div>
+      <div>
+        <img src={explorer} alt="" />
       </div>
     </Container>
   );
