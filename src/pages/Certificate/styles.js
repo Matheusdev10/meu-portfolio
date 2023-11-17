@@ -15,14 +15,16 @@ export const Container = styled.div`
     margin-top: 10px;
     font-size: 20px;
     margin-bottom: 70px;
+
+    > span {
+      color: #8a2be2;
+      font-weight: bold;
+    }
   }
 
   .certificate {
     border: 1px solid green;
     margin-bottom: 100px;
     height: 379px;
-  }
-
-  > img {
   }
 `;

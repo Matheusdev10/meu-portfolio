@@ -3,6 +3,8 @@ import { Container } from './styles';
 import { useEffect, useState } from 'react';
 import { Button } from '../Button/';
 import { BsWhatsapp } from 'react-icons/bs';
+import { BsGithub } from 'react-icons/bs';
+import { BsLinkedin } from 'react-icons/bs';
 
 export function Card() {
   const [user, setUser] = useState(null);
@@ -39,12 +41,12 @@ export function Card() {
         </p>
         <p>🚀 Buscando minha melhor versão todos os dias.</p>
         <div>
-          {/* <a
+          <a
             href="https://wa.me/5534988869144?text=Fala dev tudo bem? Adorei seu site, que tal batermos um papo? "
             target="_blank"
           >
             <Button title={'Vamos conversar?'} Icon={<BsWhatsapp />} />
-          </a> */}
+          </a>
         </div>
       </section>
     </Container>
