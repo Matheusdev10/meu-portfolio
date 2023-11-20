@@ -1,10 +1,10 @@
 import { api } from '../../services/api';
 import { Container } from './styles';
 import { useEffect, useState } from 'react';
-import { Button } from '../Button/';
-import { BsWhatsapp } from 'react-icons/bs';
+// import { Button } from '../Button/';
 import { BsGithub } from 'react-icons/bs';
 import { BsLinkedin } from 'react-icons/bs';
+import fotoMatheus from '../../assets/foto matheus.png';
 
 export function Card() {
   const [user, setUser] = useState(null);
@@ -25,6 +25,7 @@ export function Card() {
   return (
     <Container>
       <img src={user?.avatar_url} alt="imagem de perfil Matheus" />
+      {/* <img src={fotoMatheus} alt="foto matheus" /> */}
       <section>
         <p>
           👋 Olá! Meu nome é Matheus Campos e sou Desenvolvedor front-end
@@ -40,13 +41,19 @@ export function Card() {
           aberto e disposto a aprender novas techs.
         </p>
         <p>🚀 Buscando minha melhor versão todos os dias.</p>
-        <div>
-          <a
-            href="https://wa.me/5534988869144?text=Fala dev tudo bem? Adorei seu site, que tal batermos um papo? "
-            target="_blank"
-          >
-            <Button title={'Vamos conversar?'} Icon={<BsWhatsapp />} />
-          </a>
+        <div className="social-network">
+          <div className="icon-git">
+            <a href="https://github.com/matheusdev10" target="_blank">
+              <BsGithub fill="#90EE90" size={40} />
+              {/* <Button Icon={<BsGithub fill="white" size={30} />} /> */}
+            </a>
+          </div>
+
+          <div className="icon-linkedin">
+            <a href="https://www.linkedin.com/in/matheus-campos-495149201/">
+              <BsLinkedin fill="#90EE90" size={40} />
+            </a>
+          </div>
         </div>
       </section>
     </Container>

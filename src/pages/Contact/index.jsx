@@ -12,12 +12,11 @@
 //       <p>Bora bater um papo?</p>
 //       <div className="boxIcons">
 //         <div className="gitIcon">
-//           <a href="https://github.com/matheusdev10">
 //             <BsGithub size={30} fill="#90EE90" />
 //           </a>
 //         </div>
 //         <div className="linkedinIcon">
-//           <a href="https://www.linkedin.com/in/matheus-campos-495149201/">
+//
 //             <BsLinkedin size={30} fill="#90EE90" />
 //           </a>
 //         </div>

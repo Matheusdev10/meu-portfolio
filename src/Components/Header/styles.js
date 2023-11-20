@@ -6,9 +6,70 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-around;
   height: 110px;
-
   scroll-behavior: smooth;
   background-image: linear-gradient(to left, #000a0f, #001119, #0d1d25);
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .logo {
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    section {
+      display: none;
+    }
+
+    .avatar {
+      display: none;
+    }
+
+    > .logo {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      margin-top: 90px;
+      width: 100vw;
+
+      > .iconCloseAndMenu {
+        opacity: 1;
+        display: flex;
+
+        background-color: transparent;
+        > .modalMobile {
+          opacity: 1;
+
+          li {
+            list-style: none;
+          }
+
+          width: 100%;
+          height: 100%;
+          width: 140px;
+          height: 140px;
+          margin-top: 30px;
+          border-radius: 10px;
+          border: 1px solid green;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          padding-left: 10px;
+          font-size: 20px;
+        }
+      }
+    }
+
+    img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+  }
 
   > div {
     display: flex;

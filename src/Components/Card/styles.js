@@ -9,10 +9,6 @@ export const Container = styled.div`
   height: 100vh; */
 
   > img {
-    height: 100%;
-    border-radius: 20px;
-    width: 300px;
-    height: 300px;
     border-radius: 20px;
   }
 
@@ -30,5 +26,13 @@ export const Container = styled.div`
         color: ${({ theme }) => theme.COLORS.GREEN_100};
       }
     }
+  }
+
+  .social-network {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: end;
   }
 `;
