@@ -60,8 +60,11 @@ export const Box = styled.div`
         width: 0;
       }
       to {
-        width: 9em;
+        width: 7em;
       }
     }
+  }
+  .typing-animation {
+    animation: blinkCursor 400ms infinite, normal, typing 4s steps(30) 1s normal;
   }
 `;
