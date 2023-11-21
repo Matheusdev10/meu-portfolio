@@ -21,6 +21,12 @@ export const Box = styled.div`
     overflow: hidden;
   }
 
+  @media only screen and (max-width: 768px) {
+    p {
+      font-size: 20px;
+    }
+  }
+
   .typing-animation {
     animation: blinkCursor 500ms infinite, normal, typing 4s steps(40) 1s normal;
 

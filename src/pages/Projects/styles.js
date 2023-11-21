@@ -23,6 +23,12 @@ export const Container = styled.div`
     font-size: 20px;
   }
 
+  @media only screen and (max-width: 768px) {
+    p {
+      text-align: center;
+    }
+  }
+
   .cards {
     display: flex;
     max-width: 1200px;

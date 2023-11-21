@@ -32,29 +32,30 @@ export const Container = styled.div`
     > .logo {
       display: flex;
       align-items: center;
+      justify-content: center;
       gap: 30px;
-      margin-top: 90px;
       width: 100vw;
 
       > .iconCloseAndMenu {
         opacity: 1;
-        display: flex;
 
-        background-color: transparent;
         > .modalMobile {
-          opacity: 1;
-
           li {
             list-style: none;
           }
 
-          width: 100%;
-          height: 100%;
           width: 140px;
           height: 140px;
           margin-top: 30px;
           border-radius: 10px;
           border: 1px solid green;
+          background-image: linear-gradient(
+            to right,
+            #000a0f,
+            #001119,
+            #0d1d25
+          );
+
           display: flex;
           flex-direction: column;
           justify-content: space-around;
@@ -82,9 +83,20 @@ export const Container = styled.div`
       height: 100px;
       border-radius: 50%;
     }
+    @media only screen and (max-width: 768px) {
+      img {
+        width: 60px;
+        height: 60px;
+      }
+    }
     > p {
       font-size: 1.5rem;
       color: ${({ theme }) => theme.COLORS.GREEN_100};
+    }
+    @media only screen and (max-width: 768px) {
+      p {
+        font-size: 20px;
+      }
     }
   }
 

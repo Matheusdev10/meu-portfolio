@@ -18,12 +18,30 @@ export const Container = styled.div`
     font-size: 20px;
   }
 
+  @media only screen and (max-width: 768px) {
+    p {
+      text-align: center;
+    }
+  }
+
   > section {
     display: flex;
     > div {
       > img {
         width: 100px;
         height: 100px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    > section {
+      display: flex;
+      > div {
+        > img {
+          width: 50px;
+          height: 50px;
+        }
       }
     }
   }

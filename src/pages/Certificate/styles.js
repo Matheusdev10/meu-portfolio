@@ -27,4 +27,19 @@ export const Container = styled.div`
     margin-bottom: 100px;
     height: 379px;
   }
+
+  @media only screen and (max-width: 768px) {
+    p {
+      text-align: center;
+    }
+
+    .certificate {
+      height: 202px;
+      > img {
+        width: 320px;
+        height: 200px;
+        object-fit: cover;
+      }
+    }
+  }
 `;

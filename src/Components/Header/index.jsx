@@ -38,8 +38,8 @@ export function Header() {
               />
             ) : (
               <>
-                <AiOutlineClose onClick={() => setIsClose(true)} size={25} />
                 <div className="modalMobile">
+                  <AiOutlineClose onClick={() => setIsClose(true)} />
                   <ul>
                     <div className="about-me">
                       <a href="#home">

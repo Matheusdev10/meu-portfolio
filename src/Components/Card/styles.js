@@ -8,6 +8,11 @@ export const Container = styled.div`
   /* width: 100vw;
   height: 100vh; */
 
+  @media only screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
+
   > img {
     border-radius: 20px;
   }
@@ -34,5 +39,17 @@ export const Container = styled.div`
     margin-top: 10px;
     align-items: center;
     justify-content: end;
+  }
+
+  @media only screen and (max-width: 768px) {
+    > img {
+      width: 250px;
+      height: 250px;
+      margin-bottom: 50px;
+    }
+
+    > section {
+      width: 300px;
+    }
   }
 `;
