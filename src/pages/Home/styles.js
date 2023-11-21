@@ -53,4 +53,15 @@ export const Box = styled.div`
       width: 12em;
     }
   }
+
+  @media only screen and (max-width: 768px) {
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 11em;
+      }
+    }
+  }
 `;
