@@ -44,7 +44,7 @@ export const Container = styled.div`
             list-style: none;
           }
 
-          width: 140px;
+          /* width: 140px;
           height: 140px;
           margin-top: 30px;
           border-radius: 10px;
@@ -60,7 +60,18 @@ export const Container = styled.div`
           flex-direction: column;
           justify-content: space-around;
           padding-left: 10px;
-          font-size: 20px;
+          font-size: 20px; */
+          position: fixed;
+          display: flex;
+          justify-content: space-between;
+
+          left: 0;
+          width: 100%;
+          background-color: blue;
+          top: -1px;
+          padding: 2rem 1.5rem 4rem;
+          border-radius: 5px;
+          transition: 0.3s;
         }
       }
     }
