@@ -60,7 +60,7 @@ export const Box = styled.div`
         width: 0;
       }
       to {
-        width: 7em;
+        width: 9em;
       }
     }
   }
