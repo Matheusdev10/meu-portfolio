@@ -23,7 +23,7 @@ export const Box = styled.div`
 
   @media only screen and (max-width: 768px) {
     p {
-      font-size: 27px;
+      font-size: 30px;
     }
   }
 
@@ -60,7 +60,7 @@ export const Box = styled.div`
         width: 0;
       }
       to {
-        width: 11em;
+        width: 9em;
       }
     }
   }
