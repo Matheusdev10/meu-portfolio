@@ -1,7 +1,7 @@
 import { Container } from './styles';
-import food from '../../assets/images/food.jpeg';
+
 import { TagItem } from '../TagItem';
-import { listProjects } from '../../utils/listProjects';
+
 export function CardProjects({ name, description, tags, img, href }) {
   return (
     <Container>

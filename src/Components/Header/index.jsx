@@ -3,16 +3,10 @@ import { useState, useEffect } from 'react';
 import { api } from '../../services/api';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { AiOutlineClose } from 'react-icons/ai';
-import { BiArrowBack } from 'react-icons/bi';
-import { FiLogOut } from 'react-icons/fi';
-import { useNavigate } from 'react-router-dom';
-
-// import { useNavigate, Link } from 'react-router-dom';
 
 export function Header() {
   const [user, setUser] = useState(null);
   const [isClose, setIsClose] = useState(true);
-  // const navigate = useNavigate();
 
   async function getUser() {
     try {
@@ -42,7 +36,7 @@ export function Header() {
                   <AiOutlineClose onClick={() => setIsClose(true)} />
                   <ul>
                     <div className="about-me">
-                      <a href="#home">
+                      <a href="#about">
                         <li>Sobre mim</li>
                       </a>
                     </div>
@@ -83,7 +77,7 @@ export function Header() {
 
         <section>
           <ul>
-            <a href="#home">
+            <a href="#about">
               <li>Sobre mim</li>
             </a>
             <a href="#technologies">

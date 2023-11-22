@@ -17,15 +17,6 @@ export const listProjects = [
 
   {
     id: 2,
-    name: 'RocketNotes',
-    description:
-      'RocketNotes é uma aplicação desenvolvida com o objetivo de controlar anotações. Nessa aplicação é possível cadastrar, filtrar e excluir anotações',
-    tags: ['React'],
-    img: notes,
-    href: 'https://rocket-notes-react.vercel.app/',
-  },
-  {
-    id: 3,
     name: 'GitFav',
     description:
       'GitFav é uma aplicação javascript que tem como objetivo consumir a api do github e buscar usuários válidos',
@@ -34,7 +25,7 @@ export const listProjects = [
     href: 'https://gitfavorites.netlify.app/',
   },
   {
-    id: 4,
+    id: 3,
     name: 'Cronômetro',
     description:
       'Aplicação com o intuito de construir um cronômetro em javaScript com o objetivo de trabalhar com manipulação da dom',
@@ -43,7 +34,7 @@ export const listProjects = [
     href: 'https://focuspomo.netlify.app/',
   },
   {
-    id: 5,
+    id: 4,
     name: 'Calculo de IMC',
     description:
       'Calculo de Imc é um projeto desenvolvido em javascript onde o indivíduo informa a altura e o peso, e o programa consegue calcular o IMC ',
@@ -52,7 +43,7 @@ export const listProjects = [
     href: 'https://imc-rocket.netlify.app/',
   },
   {
-    id: 6,
+    id: 5,
     name: 'Work-grid',
     description:
       'Work-grid é um projeto onde o objetivo principal foi trabalhar com os conceitos de grid-css aplicando também algumas animações nos cards  ',

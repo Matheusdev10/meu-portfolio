@@ -1,10 +1,9 @@
 import { api } from '../../services/api';
 import { Container } from './styles';
 import { useEffect, useState } from 'react';
-// import { Button } from '../Button/';
+
 import { BsGithub } from 'react-icons/bs';
 import { BsLinkedin } from 'react-icons/bs';
-import fotoMatheus from '../../assets/foto matheus.png';
 
 export function Card() {
   const [user, setUser] = useState(null);
@@ -25,7 +24,7 @@ export function Card() {
   return (
     <Container>
       <img src={user?.avatar_url} alt="imagem de perfil Matheus" />
-      {/* <img src={fotoMatheus} alt="foto matheus" /> */}
+
       <section>
         <p>
           👋 Olá! Meu nome é Matheus Campos e sou Desenvolvedor front-end
@@ -45,7 +44,6 @@ export function Card() {
           <div className="icon-git">
             <a href="https://github.com/matheusdev10" target="_blank">
               <BsGithub fill="#90EE90" size={40} />
-              {/* <Button Icon={<BsGithub fill="white" size={30} />} /> */}
             </a>
           </div>
 

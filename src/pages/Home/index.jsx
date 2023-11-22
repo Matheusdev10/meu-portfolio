@@ -4,19 +4,14 @@ import { Card } from '../../Components/Card';
 import { Technologies } from '../Technologies';
 import { Projects } from '../Projects';
 import { Certificate } from '../Certificate';
+import { About } from '../About';
 
-export function Home({ id }) {
+export function Home() {
   return (
     <>
-      <Container id={id}>
-        <Header />
-        <Box>
-          <p className="typing-animation">
-            Desenvolvedor <span>Front-end</span>
-          </p>
-        </Box>
+      <Container>
+        <About id="about" />
 
-        <Card />
         <Technologies id="technologies" />
         <Projects id="projects" />
         <Certificate id="certificate" />
