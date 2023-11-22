@@ -42,34 +42,20 @@ export const Container = styled.div`
         > .modalMobile {
           li {
             list-style: none;
+            display: flex;
           }
-
-          /* width: 140px;
-          height: 140px;
-          margin-top: 30px;
-          border-radius: 10px;
-          border: 1px solid green;
-          background-image: linear-gradient(
-            to right,
-            #000a0f,
-            #001119,
-            #0d1d25
-          );
-
-          display: flex;
-          flex-direction: column;
-          justify-content: space-around;
-          padding-left: 10px;
-          font-size: 20px; */
           position: fixed;
           display: flex;
-          justify-content: space-between;
+          flex-wrap: wrap;
+          justify-content: center;
 
+          background-image: linear-gradient(to left, #000a0f, #001119, #0d1d25);
+          font-size: 20px;
+          gap: 40px;
           left: 0;
           width: 100%;
-          background-color: blue;
           top: -1px;
-          padding: 2rem 1.5rem 4rem;
+          padding: 2rem 1.5rem 2rem;
           border-radius: 5px;
           transition: 0.3s;
         }

@@ -7,6 +7,8 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   margin: 100px 0% 100px 0%;
+  @media only screen and (max-width: 768px) {
+  }
 
   > h1 {
     font-size: 50px;

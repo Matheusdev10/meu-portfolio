@@ -4,6 +4,7 @@ export const Container = styled.div`
   overflow-x: hidden;
   height: 100vh;
   scroll-behavior: smooth;
+  position: relative;
 `;
 
 export const Box = styled.div`
