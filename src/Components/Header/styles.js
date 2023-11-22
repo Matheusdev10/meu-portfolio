@@ -55,6 +55,7 @@ export const Container = styled.div`
           left: 0;
           width: 100%;
           top: -1px;
+          z-index: 1;
           padding: 2rem 1.5rem 2rem;
           border-radius: 5px;
           transition: 0.3s;

@@ -35,5 +35,6 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
     margin-top: 70px;
+    z-index: 0;
   }
 `;
