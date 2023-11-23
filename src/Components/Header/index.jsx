@@ -36,36 +36,49 @@ export function Header() {
             ) : (
               <>
                 <div className="modalMobile">
-                  <AiOutlineClose onClick={() => setIsClose(true)} />
+                  <div className="icon-close">
+                    <AiOutlineClose onClick={() => setIsClose(true)} />
+                  </div>
                   <ul>
                     <div className="about-me">
                       <a href="#about">
-                        <img src={about} alt="imagem icone usuario" />
-                        <li>Sobre mim</li>
+                        <div className="card-about">
+                          <img src={about} alt="imagem icone usuario" />
+                          <li>Sobre mim</li>
+                        </div>
                       </a>
                     </div>
                   </ul>
                   <ul>
                     <div className="techs">
                       <a href="#technologies">
-                        <img src={technology} alt="imagem icone tecnologia" />
-                        <li>Tecnologias</li>
+                        <div className="card-techs">
+                          <img src={technology} alt="imagem icone tecnologia" />
+                          <li>Tecnologias</li>
+                        </div>
                       </a>
                     </div>
                   </ul>
                   <ul>
                     <div className="projects">
                       <a href="#projects">
-                        <img src={projects} alt="imagem icone projetos" />
-                        <li>Projetos</li>
+                        <div className="card-projects">
+                          <img src={projects} alt="imagem icone projetos" />
+                          <li>Projetos</li>
+                        </div>
                       </a>
                     </div>
                   </ul>
                   <ul>
                     <div className="certificate">
                       <a href="#certificate">
-                        <img src={certificate} alt="imagem icone certificado" />
-                        <li>Certificados</li>
+                        <div className="card-certificates">
+                          <img
+                            src={certificate}
+                            alt="imagem icone certificado"
+                          />
+                          <li>Certificados</li>
+                        </div>
                       </a>
                     </div>
                   </ul>

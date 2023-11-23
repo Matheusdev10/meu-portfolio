@@ -8,11 +8,6 @@ export const Container = styled.div`
   height: 110px;
   scroll-behavior: smooth;
   background-image: linear-gradient(to left, #000a0f, #001119, #0d1d25);
-  @media only screen and (max-width: 1027px) {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
 
   @media only screen and (min-width: 768px) {
     .logo {
@@ -42,23 +37,24 @@ export const Container = styled.div`
         > .modalMobile {
           li {
             list-style: none;
-            display: flex;
           }
           position: fixed;
           display: flex;
           flex-wrap: wrap;
-          justify-content: center;
 
+          justify-content: space-evenly;
+          gap: 20px;
           background-image: linear-gradient(to left, #000a0f, #001119, #0d1d25);
           font-size: 20px;
-          gap: 40px;
+
           left: 0;
+
           width: 100%;
           top: -1px;
           z-index: 1;
-          padding: 2rem 1.5rem 2rem;
+          padding: 2rem 1.5rem 1rem;
           border-radius: 5px;
-          transition: 0.3s;
+          transition: 0.5s;
         }
       }
     }
@@ -66,7 +62,6 @@ export const Container = styled.div`
     img {
       width: 40px;
       height: 40px;
-      border-radius: 50%;
     }
   }
 
@@ -83,8 +78,8 @@ export const Container = styled.div`
     }
     @media only screen and (max-width: 1027px) {
       img {
-        width: 60px;
-        height: 60px;
+        /* width: 60px;
+        height: 60px; */
       }
     }
     > p {
@@ -130,6 +125,34 @@ export const Container = styled.div`
 
     ul li:hover::after {
       width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 1027px) {
+    .card-about {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .card-techs {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .card-projects {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .card-certificates {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .icon-close {
+      position: absolute;
+      left: 3px;
+      top: 3px;
     }
   }
 `;
