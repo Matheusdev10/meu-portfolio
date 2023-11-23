@@ -49,7 +49,8 @@ export const Container = styled.div`
     }
 
     > section {
-      width: 300px;
+      /* width: 300px; */
+      width: 85%;
     }
   }
 `;

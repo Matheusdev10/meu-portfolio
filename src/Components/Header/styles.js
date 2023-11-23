@@ -8,7 +8,7 @@ export const Container = styled.div`
   height: 110px;
   scroll-behavior: smooth;
   background-image: linear-gradient(to left, #000a0f, #001119, #0d1d25);
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1027px) {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@ export const Container = styled.div`
     }
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1027px) {
     section {
       display: none;
     }
@@ -81,7 +81,7 @@ export const Container = styled.div`
       height: 100px;
       border-radius: 50%;
     }
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 1027px) {
       img {
         width: 60px;
         height: 60px;
@@ -91,7 +91,7 @@ export const Container = styled.div`
       font-size: 1.5rem;
       color: ${({ theme }) => theme.COLORS.GREEN_100};
     }
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 1027px) {
       p {
         font-size: 20px;
       }

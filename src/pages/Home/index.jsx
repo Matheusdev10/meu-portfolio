@@ -1,6 +1,5 @@
-import { Header } from '../../Components/Header';
-import { Container, Box } from './styles';
-import { Card } from '../../Components/Card';
+import { Container } from './styles';
+
 import { Technologies } from '../Technologies';
 import { Projects } from '../Projects';
 import { Certificate } from '../Certificate';

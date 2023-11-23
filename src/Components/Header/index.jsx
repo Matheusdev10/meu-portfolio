@@ -3,7 +3,10 @@ import { useState, useEffect } from 'react';
 import { api } from '../../services/api';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { AiOutlineClose } from 'react-icons/ai';
-
+import about from '../../assets/about.png';
+import technology from '../../assets/technology.png';
+import projects from '../../assets/projects.png';
+import certificate from '../../assets/certificate.png';
 export function Header() {
   const [user, setUser] = useState(null);
   const [isClose, setIsClose] = useState(true);
@@ -37,6 +40,7 @@ export function Header() {
                   <ul>
                     <div className="about-me">
                       <a href="#about">
+                        <img src={about} alt="imagem icone usuario" />
                         <li>Sobre mim</li>
                       </a>
                     </div>
@@ -44,6 +48,7 @@ export function Header() {
                   <ul>
                     <div className="techs">
                       <a href="#technologies">
+                        <img src={technology} alt="imagem icone tecnologia" />
                         <li>Tecnologias</li>
                       </a>
                     </div>
@@ -51,6 +56,7 @@ export function Header() {
                   <ul>
                     <div className="projects">
                       <a href="#projects">
+                        <img src={projects} alt="imagem icone projetos" />
                         <li>Projetos</li>
                       </a>
                     </div>
@@ -58,6 +64,7 @@ export function Header() {
                   <ul>
                     <div className="certificate">
                       <a href="#certificate">
+                        <img src={certificate} alt="imagem icone certificado" />
                         <li>Certificados</li>
                       </a>
                     </div>
