@@ -10,7 +10,6 @@ export function Home() {
     <>
       <Container>
         <About id="about" />
-
         <Technologies id="technologies" />
         <Projects id="projects" />
         <Certificate id="certificate" />

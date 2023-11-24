@@ -7,6 +7,7 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   margin: 100px 0% 100px 0%;
+
   @media only screen and (max-width: 768px) {
   }
 
@@ -28,6 +29,7 @@ export const Container = styled.div`
 
   > section {
     display: flex;
+
     > div {
       > img {
         width: 100px;

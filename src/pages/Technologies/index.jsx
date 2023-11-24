@@ -6,16 +6,13 @@ import node from '../../assets/node.svg';
 import vue from '../../assets/vue.svg';
 import sql from '../../assets/sql.svg';
 import git from '../../assets/git.svg';
-import docker from '../../assets/docker.svg';
-import next from '../../assets/next.svg';
 import tailwind from '../../assets/tailwind.svg';
-import graphql from '../../assets/graphql.svg';
 import styledComponents from '../../assets/styledComponent.svg';
 import { Container } from './styles';
 export function Technologies({ id }) {
   return (
     <Container id={id}>
-      <h1>Tecnologias</h1>
+      <h1 id={id}>Tecnologias</h1>
       <p>Techs que estou sempre buscando me aprimorar</p>
 
       <section className="icons">

@@ -20,11 +20,12 @@ export const Box = styled.div`
     border-right: 2px solid white;
     white-space: nowrap;
     overflow: hidden;
+    margin-top: 50px;
   }
 
   @media only screen and (max-width: 768px) {
     p {
-      font-size: 30px;
+      font-size: 40px;
     }
   }
 
@@ -61,7 +62,7 @@ export const Box = styled.div`
         width: 0;
       }
       to {
-        width: 9em;
+        width: 12em;
       }
     }
   }

@@ -7,6 +7,8 @@ export const Container = styled.div`
   justify-content: space-around;
   height: 110px;
   scroll-behavior: smooth;
+  position: fixed;
+  z-index: 1;
   background-image: linear-gradient(to left, #000a0f, #001119, #0d1d25);
 
   @media only screen and (min-width: 768px) {
@@ -38,6 +40,7 @@ export const Container = styled.div`
           li {
             list-style: none;
           }
+
           position: fixed;
           display: grid;
           grid-template-columns: 200px 200px;

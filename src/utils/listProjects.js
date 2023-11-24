@@ -28,7 +28,7 @@ export const listProjects = [
     id: 3,
     name: 'Cronômetro',
     description:
-      'Aplicação com o intuito de construir um cronômetro em javaScript com o objetivo de trabalhar com manipulação da dom',
+      'Aplicação onde o desafio foi construir um cronômetro em javaScript com o objetivo de trabalhar com manipulação da dom',
     tags: ['JavaScript'],
     img: focus,
     href: 'https://focuspomo.netlify.app/',
