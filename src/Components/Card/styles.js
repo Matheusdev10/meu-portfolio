@@ -13,6 +13,7 @@ export const Container = styled.div`
   > img {
     border-radius: 20px;
     border: 1px solid green;
+    background-image: linear-gradient(to left, #000a0f, #001119, #0d1d25);
   }
 
   > section {
@@ -23,6 +24,7 @@ export const Container = styled.div`
     border-radius: 20px;
     font-family: sans-serif;
     border: 1px solid #4f8d40;
+    background-image: linear-gradient(to right, #000a0f, #001119, #0d1d25);
 
     > p {
       > span {
