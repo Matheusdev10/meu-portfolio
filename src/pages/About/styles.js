@@ -26,6 +26,7 @@ export const Box = styled.div`
   @media only screen and (max-width: 768px) {
     p {
       font-size: 35px;
+      margin-top: 130px;
     }
   }
 
