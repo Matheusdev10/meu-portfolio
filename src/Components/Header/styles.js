@@ -39,19 +39,17 @@ export const Container = styled.div`
             list-style: none;
           }
           position: fixed;
-          display: flex;
-          flex-wrap: wrap;
-
-          justify-content: space-evenly;
+          display: grid;
+          grid-template-columns: 200px 200px;
+          justify-content: center;
           gap: 20px;
           background-image: linear-gradient(to left, #000a0f, #001119, #0d1d25);
           font-size: 20px;
-
           left: 0;
-
           width: 100%;
           top: -1px;
           z-index: 1;
+
           padding: 2rem 1.5rem 1rem;
           border-radius: 5px;
           transition: 0.5s;
@@ -75,13 +73,11 @@ export const Container = styled.div`
       width: 100px;
       height: 100px;
       border-radius: 50%;
+      border: 1px solid green;
+
+      background-image: linear-gradient(to bottom, #000a0f, #001119, #0d1d25);
     }
-    @media only screen and (max-width: 1027px) {
-      img {
-        /* width: 60px;
-        height: 60px; */
-      }
-    }
+
     > p {
       font-size: 1.5rem;
       color: ${({ theme }) => theme.COLORS.GREEN_100};
@@ -144,15 +140,17 @@ export const Container = styled.div`
       flex-direction: column;
       align-items: center;
     }
+
     .card-certificates {
       display: flex;
       flex-direction: column;
       align-items: center;
     }
+
     .icon-close {
       position: absolute;
-      left: 3px;
-      top: 3px;
+      left: 4px;
+      top: 5px;
     }
   }
 `;
