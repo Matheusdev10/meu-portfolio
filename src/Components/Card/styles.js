@@ -81,4 +81,21 @@ export const Container = styled.div`
       border: 1px solid #4f8d40;
     }
   }
+
+  section {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 5%;
+      width: 100%;
+    }
+  }
 `;

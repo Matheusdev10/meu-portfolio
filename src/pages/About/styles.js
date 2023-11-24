@@ -70,4 +70,9 @@ export const Box = styled.div`
   .typing-animation {
     animation: blinkCursor 400ms infinite, normal, typing 4s steps(30) 1s normal;
   }
+
+  p {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
 `;
